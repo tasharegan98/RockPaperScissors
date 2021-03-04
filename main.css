@@ -1,14 +1,17 @@
-
-.flex-container {
+.row {
   display: flex;
 }
 
-.flex-child {
-  flex: 1;
-  
-  
-}  
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
 
-.flex-child:first-child {
-  margin-right: 20px;
-} 
+body{
+  background-color:#89cff0;
+				color: #ffffff;
+}
+
+h1{
+  text-align: center;
+}

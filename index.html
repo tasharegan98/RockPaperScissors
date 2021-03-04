@@ -10,16 +10,30 @@
 <body>
   <h1> Rock Paper Scrissors</h1>
 
-  <p> 
+  <div class = "row">
+    <div class="column">
+      <h3>My Arm</h3>
+      <img id="userpic" width="200" height ="200" style="display:none;"/>
+    </div>
+    <div class = "column">
+      <h3>Robot arm</h3>
+      <img  width="200" height="200" id="myPicture" style="display:none;"/>
+      <span id="robotResult"></span> 
+    </div>
+  </div>
 
-    <div class ="flex-container">
-    <div class="flex-child magenta" id = "img1" > </div>  <div class="flex-child green" id = "img2" > </div> 
-  </div> </br> </br>
+  <div id="buttons">
+    <button id="rock" class="btn">Rock</button>
+    <button id="paper" class="btn">Paper</button>
+    <button id="scissors" class="btn">Scissors</button>
+  </div>
 
-    <div id="result1"></div>
-    <span id="result2"> </span> </br> </br>
-    <button id="button">PLAY</button></br>
-  </p> 
+  <div id="scoreKeeper">
+    <span id="scorep1"></span>
+    <span id="scorep2"></span>
+  </div>
+  
+  <span id ="answer"></span>
 
 
   <script src ="app.js"></script>
